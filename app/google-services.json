@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "573278169308",
+    "firebase_url": "https://tonight-8bc4c.firebaseio.com",
+    "project_id": "tonight-8bc4c",
+    "storage_bucket": "tonight-8bc4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573278169308:android:becf9ceba8ce3c79",
+        "android_client_info": {
+          "package_name": "com.example.tonight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573278169308-6uqcmcd7br827itr8ntj73cepoujvc36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tonight",
+            "certificate_hash": "6a0fe6da0d30ef355fc5c9c51b54990c64d23116"
+          }
+        },
+        {
+          "client_id": "573278169308-aq83ol2p4f33a1dfl38ssonrh0sba9p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgCkkhEktZYFDc9186fua5WmBoYBLAHNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573278169308-aq83ol2p4f33a1dfl38ssonrh0sba9p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

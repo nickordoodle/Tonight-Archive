@@ -1,0 +1,788 @@
+{
+	"operations": [
+		{
+			"filePath": "C:\\Users\\Nick\\AndroidStudioProjects\\Tonight\\app\\src\\main\\graphql\\com\\amazonaws\\amplify\\generated\\graphql\\mutations.graphql",
+			"operationName": "CreateTodo",
+			"operationType": "mutation",
+			"rootType": "Mutation",
+			"variables": [
+				{
+					"name": "input",
+					"type": "CreateTodoInput!"
+				}
+			],
+			"source": "mutation CreateTodo($input: CreateTodoInput!) {\n  createTodo(input: $input) {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"fields": [
+				{
+					"responseName": "createTodo",
+					"fieldName": "createTodo",
+					"type": "Todo",
+					"args": [
+						{
+							"name": "input",
+							"value": {
+								"kind": "Variable",
+								"variableName": "input"
+							}
+						}
+					],
+					"isConditional": false,
+					"isDeprecated": false,
+					"deprecationReason": null,
+					"fields": [
+						{
+							"responseName": "__typename",
+							"fieldName": "__typename",
+							"type": "String!",
+							"isConditional": false
+						},
+						{
+							"responseName": "id",
+							"fieldName": "id",
+							"type": "ID!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "name",
+							"fieldName": "name",
+							"type": "String!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "description",
+							"fieldName": "description",
+							"type": "String",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						}
+					],
+					"fragmentSpreads": [],
+					"inlineFragments": []
+				}
+			],
+			"fragmentSpreads": [],
+			"inlineFragments": [],
+			"fragmentsReferenced": [],
+			"sourceWithFragments": "mutation CreateTodo($input: CreateTodoInput!) {\n  createTodo(input: $input) {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"operationId": "0a5236f8c89bcef97a368b89c8eef5f6a83797d046cba9b7807f141ecf99c586"
+		},
+		{
+			"filePath": "C:\\Users\\Nick\\AndroidStudioProjects\\Tonight\\app\\src\\main\\graphql\\com\\amazonaws\\amplify\\generated\\graphql\\mutations.graphql",
+			"operationName": "UpdateTodo",
+			"operationType": "mutation",
+			"rootType": "Mutation",
+			"variables": [
+				{
+					"name": "input",
+					"type": "UpdateTodoInput!"
+				}
+			],
+			"source": "mutation UpdateTodo($input: UpdateTodoInput!) {\n  updateTodo(input: $input) {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"fields": [
+				{
+					"responseName": "updateTodo",
+					"fieldName": "updateTodo",
+					"type": "Todo",
+					"args": [
+						{
+							"name": "input",
+							"value": {
+								"kind": "Variable",
+								"variableName": "input"
+							}
+						}
+					],
+					"isConditional": false,
+					"isDeprecated": false,
+					"deprecationReason": null,
+					"fields": [
+						{
+							"responseName": "__typename",
+							"fieldName": "__typename",
+							"type": "String!",
+							"isConditional": false
+						},
+						{
+							"responseName": "id",
+							"fieldName": "id",
+							"type": "ID!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "name",
+							"fieldName": "name",
+							"type": "String!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "description",
+							"fieldName": "description",
+							"type": "String",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						}
+					],
+					"fragmentSpreads": [],
+					"inlineFragments": []
+				}
+			],
+			"fragmentSpreads": [],
+			"inlineFragments": [],
+			"fragmentsReferenced": [],
+			"sourceWithFragments": "mutation UpdateTodo($input: UpdateTodoInput!) {\n  updateTodo(input: $input) {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"operationId": "57f7be219b45b39b0852a0ff78589def22170172c5e69f59a72869a7845f5455"
+		},
+		{
+			"filePath": "C:\\Users\\Nick\\AndroidStudioProjects\\Tonight\\app\\src\\main\\graphql\\com\\amazonaws\\amplify\\generated\\graphql\\mutations.graphql",
+			"operationName": "DeleteTodo",
+			"operationType": "mutation",
+			"rootType": "Mutation",
+			"variables": [
+				{
+					"name": "input",
+					"type": "DeleteTodoInput!"
+				}
+			],
+			"source": "mutation DeleteTodo($input: DeleteTodoInput!) {\n  deleteTodo(input: $input) {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"fields": [
+				{
+					"responseName": "deleteTodo",
+					"fieldName": "deleteTodo",
+					"type": "Todo",
+					"args": [
+						{
+							"name": "input",
+							"value": {
+								"kind": "Variable",
+								"variableName": "input"
+							}
+						}
+					],
+					"isConditional": false,
+					"isDeprecated": false,
+					"deprecationReason": null,
+					"fields": [
+						{
+							"responseName": "__typename",
+							"fieldName": "__typename",
+							"type": "String!",
+							"isConditional": false
+						},
+						{
+							"responseName": "id",
+							"fieldName": "id",
+							"type": "ID!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "name",
+							"fieldName": "name",
+							"type": "String!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "description",
+							"fieldName": "description",
+							"type": "String",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						}
+					],
+					"fragmentSpreads": [],
+					"inlineFragments": []
+				}
+			],
+			"fragmentSpreads": [],
+			"inlineFragments": [],
+			"fragmentsReferenced": [],
+			"sourceWithFragments": "mutation DeleteTodo($input: DeleteTodoInput!) {\n  deleteTodo(input: $input) {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"operationId": "c6a1a87c5e00febcb48517d125c39c3ea6972e089df84007c392b7e70b443a96"
+		},
+		{
+			"filePath": "C:\\Users\\Nick\\AndroidStudioProjects\\Tonight\\app\\src\\main\\graphql\\com\\amazonaws\\amplify\\generated\\graphql\\queries.graphql",
+			"operationName": "GetTodo",
+			"operationType": "query",
+			"rootType": "Query",
+			"variables": [
+				{
+					"name": "id",
+					"type": "ID!"
+				}
+			],
+			"source": "query GetTodo($id: ID!) {\n  getTodo(id: $id) {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"fields": [
+				{
+					"responseName": "getTodo",
+					"fieldName": "getTodo",
+					"type": "Todo",
+					"args": [
+						{
+							"name": "id",
+							"value": {
+								"kind": "Variable",
+								"variableName": "id"
+							}
+						}
+					],
+					"isConditional": false,
+					"isDeprecated": false,
+					"deprecationReason": null,
+					"fields": [
+						{
+							"responseName": "__typename",
+							"fieldName": "__typename",
+							"type": "String!",
+							"isConditional": false
+						},
+						{
+							"responseName": "id",
+							"fieldName": "id",
+							"type": "ID!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "name",
+							"fieldName": "name",
+							"type": "String!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "description",
+							"fieldName": "description",
+							"type": "String",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						}
+					],
+					"fragmentSpreads": [],
+					"inlineFragments": []
+				}
+			],
+			"fragmentSpreads": [],
+			"inlineFragments": [],
+			"fragmentsReferenced": [],
+			"sourceWithFragments": "query GetTodo($id: ID!) {\n  getTodo(id: $id) {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"operationId": "48d9a1769bb97af3f47d078d4cdc2d9c024dfc072cc1544dfa889f496d9f3846"
+		},
+		{
+			"filePath": "C:\\Users\\Nick\\AndroidStudioProjects\\Tonight\\app\\src\\main\\graphql\\com\\amazonaws\\amplify\\generated\\graphql\\queries.graphql",
+			"operationName": "ListTodos",
+			"operationType": "query",
+			"rootType": "Query",
+			"variables": [
+				{
+					"name": "filter",
+					"type": "ModelTodoFilterInput"
+				},
+				{
+					"name": "limit",
+					"type": "Int"
+				},
+				{
+					"name": "nextToken",
+					"type": "String"
+				}
+			],
+			"source": "query ListTodos($filter: ModelTodoFilterInput, $limit: Int, $nextToken: String) {\n  listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {\n    __typename\n    items {\n      __typename\n      id\n      name\n      description\n    }\n    nextToken\n  }\n}",
+			"fields": [
+				{
+					"responseName": "listTodos",
+					"fieldName": "listTodos",
+					"type": "ModelTodoConnection",
+					"args": [
+						{
+							"name": "filter",
+							"value": {
+								"kind": "Variable",
+								"variableName": "filter"
+							}
+						},
+						{
+							"name": "limit",
+							"value": {
+								"kind": "Variable",
+								"variableName": "limit"
+							}
+						},
+						{
+							"name": "nextToken",
+							"value": {
+								"kind": "Variable",
+								"variableName": "nextToken"
+							}
+						}
+					],
+					"isConditional": false,
+					"isDeprecated": false,
+					"deprecationReason": null,
+					"fields": [
+						{
+							"responseName": "__typename",
+							"fieldName": "__typename",
+							"type": "String!",
+							"isConditional": false
+						},
+						{
+							"responseName": "items",
+							"fieldName": "items",
+							"type": "[Todo]",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null,
+							"fields": [
+								{
+									"responseName": "__typename",
+									"fieldName": "__typename",
+									"type": "String!",
+									"isConditional": false
+								},
+								{
+									"responseName": "id",
+									"fieldName": "id",
+									"type": "ID!",
+									"isConditional": false,
+									"isDeprecated": false,
+									"deprecationReason": null
+								},
+								{
+									"responseName": "name",
+									"fieldName": "name",
+									"type": "String!",
+									"isConditional": false,
+									"isDeprecated": false,
+									"deprecationReason": null
+								},
+								{
+									"responseName": "description",
+									"fieldName": "description",
+									"type": "String",
+									"isConditional": false,
+									"isDeprecated": false,
+									"deprecationReason": null
+								}
+							],
+							"fragmentSpreads": [],
+							"inlineFragments": []
+						},
+						{
+							"responseName": "nextToken",
+							"fieldName": "nextToken",
+							"type": "String",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						}
+					],
+					"fragmentSpreads": [],
+					"inlineFragments": []
+				}
+			],
+			"fragmentSpreads": [],
+			"inlineFragments": [],
+			"fragmentsReferenced": [],
+			"sourceWithFragments": "query ListTodos($filter: ModelTodoFilterInput, $limit: Int, $nextToken: String) {\n  listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {\n    __typename\n    items {\n      __typename\n      id\n      name\n      description\n    }\n    nextToken\n  }\n}",
+			"operationId": "77e47af25bd289797b825fee516b453aecacce17ddd72ec8eb7df7805eff3cfb"
+		},
+		{
+			"filePath": "C:\\Users\\Nick\\AndroidStudioProjects\\Tonight\\app\\src\\main\\graphql\\com\\amazonaws\\amplify\\generated\\graphql\\subscriptions.graphql",
+			"operationName": "OnCreateTodo",
+			"operationType": "subscription",
+			"rootType": "Subscription",
+			"variables": [],
+			"source": "subscription OnCreateTodo {\n  onCreateTodo {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"fields": [
+				{
+					"responseName": "onCreateTodo",
+					"fieldName": "onCreateTodo",
+					"type": "Todo",
+					"isConditional": false,
+					"isDeprecated": false,
+					"deprecationReason": null,
+					"fields": [
+						{
+							"responseName": "__typename",
+							"fieldName": "__typename",
+							"type": "String!",
+							"isConditional": false
+						},
+						{
+							"responseName": "id",
+							"fieldName": "id",
+							"type": "ID!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "name",
+							"fieldName": "name",
+							"type": "String!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "description",
+							"fieldName": "description",
+							"type": "String",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						}
+					],
+					"fragmentSpreads": [],
+					"inlineFragments": []
+				}
+			],
+			"fragmentSpreads": [],
+			"inlineFragments": [],
+			"fragmentsReferenced": [],
+			"sourceWithFragments": "subscription OnCreateTodo {\n  onCreateTodo {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"operationId": "a300509181836e4637e6084187f94bb5ac4d24549ec96fbbe581d7025ba4239f"
+		},
+		{
+			"filePath": "C:\\Users\\Nick\\AndroidStudioProjects\\Tonight\\app\\src\\main\\graphql\\com\\amazonaws\\amplify\\generated\\graphql\\subscriptions.graphql",
+			"operationName": "OnUpdateTodo",
+			"operationType": "subscription",
+			"rootType": "Subscription",
+			"variables": [],
+			"source": "subscription OnUpdateTodo {\n  onUpdateTodo {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"fields": [
+				{
+					"responseName": "onUpdateTodo",
+					"fieldName": "onUpdateTodo",
+					"type": "Todo",
+					"isConditional": false,
+					"isDeprecated": false,
+					"deprecationReason": null,
+					"fields": [
+						{
+							"responseName": "__typename",
+							"fieldName": "__typename",
+							"type": "String!",
+							"isConditional": false
+						},
+						{
+							"responseName": "id",
+							"fieldName": "id",
+							"type": "ID!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "name",
+							"fieldName": "name",
+							"type": "String!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "description",
+							"fieldName": "description",
+							"type": "String",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						}
+					],
+					"fragmentSpreads": [],
+					"inlineFragments": []
+				}
+			],
+			"fragmentSpreads": [],
+			"inlineFragments": [],
+			"fragmentsReferenced": [],
+			"sourceWithFragments": "subscription OnUpdateTodo {\n  onUpdateTodo {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"operationId": "a9f11947173af5f54a28cb38566af1388d162ab71fff32f23bc6756122cbc3bb"
+		},
+		{
+			"filePath": "C:\\Users\\Nick\\AndroidStudioProjects\\Tonight\\app\\src\\main\\graphql\\com\\amazonaws\\amplify\\generated\\graphql\\subscriptions.graphql",
+			"operationName": "OnDeleteTodo",
+			"operationType": "subscription",
+			"rootType": "Subscription",
+			"variables": [],
+			"source": "subscription OnDeleteTodo {\n  onDeleteTodo {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"fields": [
+				{
+					"responseName": "onDeleteTodo",
+					"fieldName": "onDeleteTodo",
+					"type": "Todo",
+					"isConditional": false,
+					"isDeprecated": false,
+					"deprecationReason": null,
+					"fields": [
+						{
+							"responseName": "__typename",
+							"fieldName": "__typename",
+							"type": "String!",
+							"isConditional": false
+						},
+						{
+							"responseName": "id",
+							"fieldName": "id",
+							"type": "ID!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "name",
+							"fieldName": "name",
+							"type": "String!",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						},
+						{
+							"responseName": "description",
+							"fieldName": "description",
+							"type": "String",
+							"isConditional": false,
+							"isDeprecated": false,
+							"deprecationReason": null
+						}
+					],
+					"fragmentSpreads": [],
+					"inlineFragments": []
+				}
+			],
+			"fragmentSpreads": [],
+			"inlineFragments": [],
+			"fragmentsReferenced": [],
+			"sourceWithFragments": "subscription OnDeleteTodo {\n  onDeleteTodo {\n    __typename\n    id\n    name\n    description\n  }\n}",
+			"operationId": "c9b9832580654d8c218862ff57a1a06e258ded9c597e1d63fe576d8fd81cadc0"
+		}
+	],
+	"fragments": [],
+	"typesUsed": [
+		{
+			"kind": "InputObjectType",
+			"name": "CreateTodoInput",
+			"description": null,
+			"fields": [
+				{
+					"name": "id",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "name",
+					"type": "String!",
+					"description": null
+				},
+				{
+					"name": "description",
+					"type": "String",
+					"description": null
+				}
+			]
+		},
+		{
+			"kind": "InputObjectType",
+			"name": "UpdateTodoInput",
+			"description": null,
+			"fields": [
+				{
+					"name": "id",
+					"type": "ID!",
+					"description": null
+				},
+				{
+					"name": "name",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "description",
+					"type": "String",
+					"description": null
+				}
+			]
+		},
+		{
+			"kind": "InputObjectType",
+			"name": "DeleteTodoInput",
+			"description": null,
+			"fields": [
+				{
+					"name": "id",
+					"type": "ID",
+					"description": null
+				}
+			]
+		},
+		{
+			"kind": "InputObjectType",
+			"name": "ModelTodoFilterInput",
+			"description": null,
+			"fields": [
+				{
+					"name": "id",
+					"type": "ModelIDFilterInput",
+					"description": null
+				},
+				{
+					"name": "name",
+					"type": "ModelStringFilterInput",
+					"description": null
+				},
+				{
+					"name": "description",
+					"type": "ModelStringFilterInput",
+					"description": null
+				},
+				{
+					"name": "and",
+					"type": "[ModelTodoFilterInput]",
+					"description": null
+				},
+				{
+					"name": "or",
+					"type": "[ModelTodoFilterInput]",
+					"description": null
+				},
+				{
+					"name": "not",
+					"type": "ModelTodoFilterInput",
+					"description": null
+				}
+			]
+		},
+		{
+			"kind": "InputObjectType",
+			"name": "ModelIDFilterInput",
+			"description": null,
+			"fields": [
+				{
+					"name": "ne",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "eq",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "le",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "lt",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "ge",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "gt",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "contains",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "notContains",
+					"type": "ID",
+					"description": null
+				},
+				{
+					"name": "between",
+					"type": "[ID]",
+					"description": null
+				},
+				{
+					"name": "beginsWith",
+					"type": "ID",
+					"description": null
+				}
+			]
+		},
+		{
+			"kind": "InputObjectType",
+			"name": "ModelStringFilterInput",
+			"description": null,
+			"fields": [
+				{
+					"name": "ne",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "eq",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "le",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "lt",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "ge",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "gt",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "contains",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "notContains",
+					"type": "String",
+					"description": null
+				},
+				{
+					"name": "between",
+					"type": "[String]",
+					"description": null
+				},
+				{
+					"name": "beginsWith",
+					"type": "String",
+					"description": null
+				}
+			]
+		}
+	]
+}

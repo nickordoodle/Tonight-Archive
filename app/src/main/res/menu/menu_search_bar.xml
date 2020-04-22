@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Tonight="http://schemas.android.com/apk/res-auto">
+
+    <!-- Search Bar -->
+    <item android:id="@+id/search"
+        android:title="@string/search_bar_text"
+        android:icon="@android:drawable/ic_menu_search"
+        Tonight:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <!-- Favorites -->
+    <item android:id="@+id/action_add_event"
+        android:title="@string/add_event"
+        android:icon="@android:drawable/ic_menu_add"
+        Tonight:showAsAction="always"/>
+
+    <!-- Settings / Overflow menu -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@android:drawable/arrow_down_float"
+        Tonight:showAsAction="never"/>
+
+</menu>
